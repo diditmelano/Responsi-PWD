@@ -1,0 +1,448 @@
+
+/* CSS Document */
+
+*{
+	padding: 0; margin: 0;
+}
+h2{
+	font-family: 'Righteous', cursive;
+}
+p{
+	font-family: 'Voltaire', sans-serif;
+	color: #fff;
+	margin-right: 200px;
+}
+small{
+	color: #b69877;	
+}
+small a{
+	color: #ddd;
+	text-decoration: none;
+}
+
+/*Header*/
+header{
+	background: #33CCFF;
+	padding: 10px 20px;
+	margin-bottom: 0;
+	position: relative;
+	z-index: 10;
+	overflow: hidden;
+}
+header a{
+	color: #FFFF00;
+	text-decoration:  none;
+}
+header img{
+	float: left;
+	height: 70px;
+	width: 70px;
+}
+header h1{
+	margin-top: 20px;
+	margin-left: 80px;
+	font-family: 'Righteous' cursive;
+}
+/*Content*/
+#gr{
+	float: right;
+	margin-left: 150px;
+	max-width: 650px;
+}
+
+
+.one{
+	 	background-image: linear-gradient(top, #7db4dd 0%, #d3e5f1 50%, #d3e5f1 100%); 
+	 	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #7db4dd), color-stop(0.5, #d3e5f1), color-stop(1, #d3e5f1)); 
+	 	background-image: -moz-linear-gradient(top, #7db4dd 0%, #d3e5f1 50%, #d3e5f1 100%); 
+	 	background-image: -o-linear-gradient(top, #7db4dd 0%, #d3e5f1 50%, #d3e5f1 100%); 
+	 	background-image: -ms-linear-gradient(top, #7db4dd 0%, #d3e5f1 50%, #d3e5f1 100%);
+	
+	/*background: url("assets/img/2.jpg");*/
+
+}
+.one #page-container{
+	position: absolute;
+	bottom: 100px;
+	margin-left: -300px;
+	left: 50%;
+	margin-bottom: 150px;
+	max-width: 650px;
+}
+
+.one .page-container h2{
+	font-size: 4em;
+}
+.one .page-container p{
+	padding: 20px 0;
+	line-height: 1.5em;
+}
+.two{
+	background-color: #b69877;
+}
+.two .page-container{
+	position: absolute;
+	bottom: 100px;
+	margin-left: -400px;
+	left: 50%;
+	margin-bottom: 150px;
+	max-width: 650px;
+}
+.two .page-container h2{
+	font-size: 4em;
+}
+.two .page-container p{
+	padding: 20px 0;
+	line-height: 1.5em;
+}
+.three{
+	background-color: #99ccff;
+}
+.three .page-container{
+	position: absolute;
+	bottom: 100px;
+	margin-left: -400px;
+	left: 50%;
+	margin-bottom: 150px;
+	max-width: 650px;
+}
+.three .page-container h2{
+	font-size: 4em;
+}
+.three .page-container p{
+	padding: 20px 0;
+	line-height: 1.5em;
+}
+
+
+
+body{
+	margin:0;
+	background-color:#eee;
+	overflow:auto;
+}
+
+#btn1{
+	background:#06F;
+	height:28%;
+	width:30%;
+	position:relative;
+
+	left:900px;
+	cursor:pointer;
+	
+	color:#FFF;
+	font-size:25px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+	padding:3px;
+	text-align:left;
+	
+	
+}
+#btn2{
+	background:#C30;
+	height:28%;
+	width:30%;
+	position:relative;
+
+	left:1000px;
+	cursor:pointer;
+	
+	color:#FFF;
+	font-size:25px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+	padding:3px;
+	text-align:left;
+}
+
+#btn3{
+	background:#F60;
+	border-color:#F60;
+	height:28%;
+	width:30%;
+	position:relative;
+
+	left:900px;
+	cursor:pointer;
+	
+	color:#FFF;
+	font-size:25px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+	padding:3px;
+	text-align:left;
+}
+
+#btn4{
+	background:#C3C;
+	border-color:#F60;
+	height:28%;
+	width:30%;
+	position:relative;
+
+	margin-top:30px;
+	left:2000px;
+	cursor:pointer;
+	
+	color:#FFF;
+	font-size:25px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+	padding:3px;
+	text-align:left;
+}
+#btn5{
+	background:#F36;
+	border-color:#F60;
+	height:28%;
+	width:30%;
+	position:relative;
+
+	margin-top:30px;
+	left:1000px;
+	cursor:pointer;
+	
+	color:#FFF;
+	font-size:25px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+	padding:3px;
+	text-align:left;
+}
+
+#btn6{
+	background:#6C0;
+	height:28%;
+	width:30%;
+	position:relative;
+
+	margin-top:30px;
+	left:900px;
+	cursor:pointer;
+	
+	color:#FFF;
+	font-size:25px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+	padding:3px;
+	text-align:left;
+}
+
+#content{
+	background:#fff;
+	height:100%;
+	width:100%;
+	position:relative;
+	top:100%;
+	z-index:0;
+}
+
+#backbutton{
+	position:relative;
+	left:100%;
+	cursor:pointer;
+	
+	height: 44px;
+	width: 44px;
+	margin-top: 15px;
+	float: left;
+	position: absolute;
+
+}
+ 
+
+#caption{
+	position:relative;
+	top:-60px;
+
+	color:#FFF;
+	font-size:25px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
+
+#pagecaption{
+	position:relative;
+	top:-60px;
+	
+	color:#FFF;
+	font-size:25px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+}
+
+.he{
+	height: 80px;
+	overflow: hidden;
+	margin: 0 auto;
+	background: #333;
+}
+.konten {
+	width: 100%;
+	height: 100%;
+	margin:0 auto;
+	overflow: hidden;
+	position: relative;
+}
+.captions{
+	height: 44px;
+	margin-top: 20px;
+
+	float: left;
+	margin-left: 12px;
+	position: absolute;
+}
+.pcaptions{
+	height: 44px;
+	margin-top: 20px;
+	float: left;
+
+	position: absolute;
+	
+}
+.form{
+	width: 97%;
+	height: 100%;
+	overflow: hidden;
+	margin:0 auto;
+	padding: 5px;
+	position: relative;
+	margin-top: 35px;
+}
+
+.box{
+	float: left;
+
+}
+
+
+
+
+/* CSS Resets */
+* {
+padding:0;
+margin:0;
+}
+img {
+max-width: 100%;
+height: auto;
+
+}
+ul,ol {
+list-style-type: none;
+}
+/* end css reset */.containers { /* posisikan letak slidernya */
+margin:5% auto;
+position: relative;
+overflow: hidden;
+}
+.containers, ul.slide li img{
+width:500px; /* Sesuaikan sendiri */
+height: 300px; /* Sesuaikan sendiri */
+}ul.slide {
+position: absolute;
+display: block;
+width:400%; /* <– Angka 3 Bergantung pada jumlah slide */
+}.caption { /* styling untuk deskripsi setiap slide */
+position: absolute;
+background-color: rgba(0,0,0,0.5);
+bottom:0;
+padding:10px;
+color:#fff;
+left: 0;
+right: 0;
+}/* Yang membuatnya jadi slider, alias kode intinya */
+ul.slide li {
+display: inline-block;
+float: left;
+-webkit-box-sizing:border-box;
+-moz-box-sizing:border-box;
+ox-sizing:border-box;
+-webkit-transition: -webkit-transform 2000ms;
+-moz-transition: -moz-transform 2000ms;
+transition: -webkit-transform 2000ms, transform 2000ms;
+}
+ul.slide li.slide-1 {
+left: 0%;
+}
+ul.slide li.slide-2 {
+left: 100%;
+}
+ul.slide li.slide-3 {
+left: 200%;
+}
+ul.slide li.slide-4 {
+left: 300%;
+}
+#nav-1:checked ~ ul.slide li{
+-webkit-transform: translateX(0%);
+-moz-transform: translateX(0%);
+transform: translateX(0%);
+}
+#nav-2:checked ~ ul.slide li{
+-webkit-transform: translateX(-100%);
+-moz-transform: translateX(-100%);
+transform: translateX(-100%);
+}
+#nav-3:checked ~ ul.slide li {
+-webkit-transform: translateX(-200%);
+-moz-transform: translateX(-200%);
+transform: translateX(-200%);
+}
+#nav-4:checked ~ ul.slide li {
+-webkit-transform: translateX(-300%);
+-moz-transform: translateX(-300%);
+transform: translateX(-300%);
+}
+/* End, yang membuatnya jadi slider *//* Navigator */.radio-nav { /* menghilangkan radio button */
+display: none;
+}/* styling untuk tombol next dan previous slide */
+.nav-arrow {
+position: absolute;
+top:45%;
+width:50px;
+height: 50px;
+}
+.nav-next {
+right:10px;
+}
+.nav-prev {
+left:10px;
+}
+.nav-arrow label {
+-webkit-transition:all 0.3s;
+-moz-transition:all 0.3s;
+transition:all 0.3s;
+background-color: rgba(0,0,0,0.3);
+color: #fff;
+border-radius: 50%;
+display: block;
+position: absolute;
+padding:15px 20px;
+cursor: pointer;
+z-index: 1;
+opacity: 0;
+font-weight: bold;
+line-height: 1;
+}
+.containers:hover .nav-arrow label{
+background-color: rgba(0,0,0,0.7);
+}
+/* end styling untuk tombol next dan previous slide */
+/* Ini termasuk kode inti. Setiap slide mempunya tombol prev dan next-nya masing-masing. Nah, tampilkan tombol yang tepat dengan kode dibawah ini*/
+#nav-1:checked ~ .nav-prev label.nav-4,
+#nav-1:checked ~ .nav-next label.nav-2,
+
+#nav-2:checked ~ .nav-prev label.nav-1,
+#nav-2:checked ~ .nav-next label.nav-3,
+
+#nav-3:checked ~ .nav-prev label.nav-2,
+#nav-3:checked ~ .nav-next label.nav-4,
+
+#nav-4:checked ~ .nav-prev label.nav-3,
+#nav-4:checked ~ .nav-next label.nav-1{
+z-index: 2;
+opacity: 1;
+}
+/* end *//* Navigator */
